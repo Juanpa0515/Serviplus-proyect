@@ -1,0 +1,58 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "tipodoc": "Cédula Ciudadanía",
+      "numdoc": "1234567890",
+      "nombre": "Narly",
+      "apellido": "Sanchez",
+      "fnacimiento": "1982-06-25",
+      "email": "marioyepes@gmail.com",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "tipodoc": "Pasaporte",
+      "numdoc": "198765432",
+      "nombre": "Camila María",
+      "apellido": "Esguerra Cortés",
+      "fnacimiento": "1987-03-15",
+      "email": "lauraesguerra@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "ticket": [
+    {
+      "id": 101,
+      "caracteristicas": "informacion del usuario",
+      "tipoconsulta": "eliminacion de cuenta",
+      "cantidatickets": 2,
+      "fechaexpedicion": "2022-08-26",
+      "preciocompraticket": 10
+    },
+    {
+      "id": 102,
+      "caracteristicas": "informacion del usuario",
+      "tipoconsulta": "eliminacion de cuenta",
+      "cantidatickets": 1,
+      "fechaexpedicion": "2022-07-01",
+      "preciocompraticket": 12
+    }
+  ],
+  "chat": [
+    {
+      "id": 1,
+      "fechacreacionchat": "2022-07-07",
+      "fechafin": "2022-08-26",
+      "userId": 1,
+      "numticket": 101
+    },
+    {
+      "id": 2,
+      "fechacreacionchat": "2022-07-07",
+      "fechafin": "2022-08-26",
+      "userId": 2,
+      "numticket": 102
+    }
+  ]
+}
